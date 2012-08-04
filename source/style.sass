@@ -1,0 +1,68 @@
+@import compass
+
++global-reset
+
+$dark_gray: #555555
+$light_gray: #cecece
+$aqua: #8eafb8
+	
+body
+	font-family: helvetica
+	background: $light_gray
+h1, h2
+	font-weight: bold
+	display: inline-block
+h1
+	font-size: 100px
+	background-color: rgba($dark_gray, .8)
+	color: $light_gray
+	padding: 30px
+	margin-right: 20%
+h2
+	font-size: 30px
+	background-color: rgba($light_gray, .8)
+	color: $dark_gray
+	padding: 20px
+	padding-left: 30%
+	margin-right: 30%
+header
+	height: 350px
+	background: url('../images/a.jpeg')
+	background-size: 100%
+	background-position: center center
+	background-repeat: no-repeat
+	padding-top: 55px
+
+nav
+	background: $aqua
+	padding: 20px
+ul li
+	display: inline
+	font-size: 24px
+	a
+		margin: 30px 50px
+		padding: 7px 15px
+		border-radius: 15px
+		color: $dark_gray
+		-webkit-transition: all 1s
+		&:hover
+			background: white
+			-webkit-transition: all 1s
+
+.container
+	width: 90%
+	margin: 40px auto 0 auto
+.item
+	width: 31%
+	margin: 0 3.5% 25px 0
+	background: white
+	border-top: 4px solid $aqua
+	float: left
+	&:nth-child(3n)
+		margin-right: 0
+	@media only screen and (max-width: 800px)
+		width: 100%
+		margin-right: 0
+	img
+		width: 94%
+		margin: 3%

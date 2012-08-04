@@ -1,0 +1,137 @@
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 20, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1; }
+
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 101, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 114, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 9, ../source/style.sass */
+body {
+  font-family: helvetica;
+  background: #cecece; }
+
+/* line 12, ../source/style.sass */
+h1, h2 {
+  font-weight: bold;
+  display: inline-block; }
+
+/* line 15, ../source/style.sass */
+h1 {
+  font-size: 100px;
+  background-color: rgba(85, 85, 85, 0.8);
+  color: #cecece;
+  padding: 30px;
+  margin-right: 20%; }
+
+/* line 21, ../source/style.sass */
+h2 {
+  font-size: 30px;
+  background-color: rgba(206, 206, 206, 0.8);
+  color: #555555;
+  padding: 20px;
+  padding-left: 30%;
+  margin-right: 30%; }
+
+/* line 28, ../source/style.sass */
+header {
+  height: 350px;
+  background: url("../images/a.jpeg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 55px; }
+
+/* line 36, ../source/style.sass */
+nav {
+  background: #8eafb8;
+  padding: 20px; }
+
+/* line 39, ../source/style.sass */
+ul li {
+  display: inline;
+  font-size: 24px; }
+  /* line 42, ../source/style.sass */
+  ul li a {
+    margin: 30px 50px;
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: #555555;
+    -webkit-transition: all 1s; }
+    /* line 48, ../source/style.sass */
+    ul li a:hover {
+      background: white;
+      -webkit-transition: all 1s; }
+
+/* line 52, ../source/style.sass */
+.container {
+  width: 90%;
+  margin: 40px auto 0 auto; }
+
+/* line 55, ../source/style.sass */
+.item {
+  width: 31%;
+  margin: 0 3.5% 25px 0;
+  background: white;
+  border-top: 4px solid #8eafb8;
+  float: left; }
+  /* line 61, ../source/style.sass */
+  .item:nth-child(3n) {
+    margin-right: 0; }
+  @media only screen and (max-width: 800px) {
+    /* line 55, ../source/style.sass */
+    .item {
+      width: 100%;
+      margin-right: 0; } }
+  /* line 66, ../source/style.sass */
+  .item img {
+    width: 94%;
+    margin: 3%; }
